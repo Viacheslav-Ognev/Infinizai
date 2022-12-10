@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*Обнуление*/
+/* line 2, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 3, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+:focus, :active {
+  outline: none;
+}
+
+/* line 5, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+a:focus, a:active {
+  outline: none;
+}
+
+/* line 6, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+nav, footer, header, aside {
+  display: block;
+}
+
+/* line 7, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 8, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+input, button, textarea {
+  font-family: inherit;
+}
+
+/* line 9, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+input::-ms-clear {
+  display: none;
+}
+
+/* line 10, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 11, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 12, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+a, a:visited {
+  text-decoration: none;
+}
+
+/* line 13, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 14, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 15, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+img {
+  vertical-align: top;
+}
+
+/* line 16, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+/*# sourceMappingURL=reset.css.map */

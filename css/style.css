@@ -1,0 +1,1153 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+/* line 2, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* line 3, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 4, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+:focus, :active {
+  outline: none;
+}
+
+/* line 5, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+a:focus, a:active {
+  outline: none;
+}
+
+/* line 6, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+nav, footer, header, aside {
+  display: block;
+}
+
+/* line 7, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 8, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+input, button, textarea {
+  font-family: inherit;
+}
+
+/* line 9, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+input::-ms-clear {
+  display: none;
+}
+
+/* line 10, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 11, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 12, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+a, a:visited {
+  text-decoration: none;
+}
+
+/* line 13, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 14, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 15, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+img {
+  vertical-align: top;
+}
+
+/* line 16, ../HTML_CSS_IT/Infinizai/scss/reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/* line 4, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+body {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* line 10, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+a {
+  color: #FFFFFF;
+}
+
+/* line 13, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/* line 19, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.btm {
+  background: #57B8FF;
+  border-radius: 0px;
+  padding: 21px 34px;
+}
+
+/* line 25, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+/* line 34, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__list {
+  display: flex;
+}
+
+/* line 37, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__item {
+  margin-right: 60px;
+}
+
+/* line 39, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__item:last-child {
+  margin-right: 0;
+}
+
+/* line 43, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__link {
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  color: #FFFFFF;
+}
+
+/* line 48, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__link:hover {
+  color: #FAC422;
+}
+
+/* line 52, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__contanct {
+  display: flex;
+  align-items: center;
+}
+
+/* line 56, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__basket {
+  position: relative;
+  margin-right: 40px;
+}
+
+/* line 63, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__basket-img {
+  width: 32px;
+  height: 32px;
+}
+
+/* line 67, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__buy {
+  position: absolute;
+  background-color: #FFFFFF;
+  color: #000;
+  border-radius: 9px;
+  margin-right: 20px;
+  padding: 5px 6px;
+  left: 96.92%;
+  top: 0;
+}
+
+/* line 77, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__btm {
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+  padding: 16px 31px;
+}
+
+/* line 86, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.header__btm:hover {
+  background-color: #FAC422;
+}
+
+/* line 92, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main {
+  padding-top: 300px;
+  background-color: #000;
+  z-index: 1;
+}
+
+/* line 96, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__hero {
+  height: 769px;
+}
+
+/* line 99, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__social {
+  position: absolute;
+  left: calc(50% - 81px/2 - 805.5px);
+  top: calc(50% - 25px/2 + 118px);
+}
+
+/* line 104, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__list {
+  display: flex;
+  transform: rotate(-90deg);
+}
+
+/* line 108, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__item {
+  margin-right: 36px;
+}
+
+/* line 111, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__link {
+  font-size: 11px;
+  line-height: 25px;
+  /* identical to box height, or 227% */
+  color: #80858F;
+}
+
+/* line 117, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__info {
+  display: flex;
+}
+
+/* line 120, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__text {
+  position: relative;
+  color: #FFFFFF;
+}
+
+/* line 124, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__fire {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+/* line 128, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__fire img {
+  padding-right: 8px;
+}
+
+/* line 132, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__fire-text {
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  color: #57B8FF;
+}
+
+/* line 139, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__title {
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: capitalize;
+  margin-bottom: 43px;
+}
+
+/* line 145, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__line {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+/* line 150, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub-title {
+  font-size: 18px;
+  line-height: 28px;
+  color: #999999;
+  margin-bottom: 53px;
+}
+
+/* line 156, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__btm-link {
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+/* line 160, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__btm-link:hover {
+  color: #FAC422;
+}
+
+/* line 164, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__btm {
+  margin-right: 40px;
+  color: #FFFFFF;
+}
+
+/* line 167, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__btm:hover {
+  background: #FAC422;
+}
+
+/* line 171, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__bg-img {
+  z-index: 30;
+}
+
+/* line 174, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__blue-color {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 670px;
+  height: 1069px;
+  background-color: #57B8FF;
+  z-index: 2;
+}
+
+/* line 183, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__webflow-btm {
+  position: absolute;
+  align-items: center;
+  left: 90%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  z-index: 30;
+}
+
+/* line 191, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__webflow-btm .webflow_logo {
+  margin: 6px 8px 6px 6px;
+}
+
+/* line 194, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__webflow-btm .webflow-text {
+  margin: 9px 8px 9px 0;
+}
+
+/* line 198, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__company {
+  height: 542px;
+  background: #FDD04A;
+}
+
+/* line 202, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__company-box {
+  position: relative;
+  padding: 130px 60px;
+  text-align: center;
+}
+
+/* line 207, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__company-title {
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: capitalize;
+  color: #222730;
+  margin-bottom: 27px;
+}
+
+/* line 214, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__comany-line {
+  position: absolute;
+  left: 42%;
+  top: 36%;
+}
+
+/* line 219, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__subtitle-company {
+  font-size: 16px;
+  line-height: 26px;
+  width: 576px;
+  color: #555555;
+  margin: 0 auto;
+  margin-bottom: 41px;
+}
+
+/* line 227, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__campany-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 231, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game {
+  background: url(../img/bg/bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 1072px;
+  padding-top: 130px;
+  margin-bottom: 130px;
+}
+
+/* line 238, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-text {
+  margin: 0 auto;
+  width: 770px;
+  height: 292px;
+  margin-bottom: 62px;
+}
+
+/* line 244, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__fire {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 249, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__fire img {
+  padding-right: 8px;
+}
+
+/* line 253, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__text-fire {
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-transform: uppercase;
+  color: #57B8FF;
+}
+
+/* line 260, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-title {
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 39px;
+}
+
+/* line 268, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-subtitle {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+/* line 274, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 279, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-item {
+  display: flex;
+  align-items: center;
+  width: 586px;
+  height: 212px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  margin: 0 32px 32px 0;
+}
+
+/* line 287, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-item:nth-child(2n) {
+  margin: 0 0 32px 0;
+}
+
+/* line 290, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-item img {
+  width: 29px;
+  height: 29px;
+  margin: 35px 16px 148px 35px;
+}
+
+/* line 295, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-item div {
+  margin: 35px 35px 35px 0;
+}
+
+/* line 297, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-item div h4 {
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding-bottom: 19px;
+}
+
+/* line 304, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__game-item div p {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+/* line 311, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video {
+  height: 677px;
+}
+
+/* line 314, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-container {
+  display: flex;
+}
+
+/* line 317, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-text {
+  width: 733px;
+  margin-right: 95px;
+}
+
+/* line 321, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-fire {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+/* line 325, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-fire img {
+  padding-right: 8px;
+}
+
+/* line 329, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__videotext-fire {
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57B8FF;
+  margin-bottom: 12px;
+}
+
+/* line 337, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-title {
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 38px;
+}
+
+/* line 344, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+  margin-bottom: 54px;
+}
+
+/* line 350, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-btm {
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 356, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-btm:hover {
+  background-color: #FDD04A;
+}
+
+/* line 360, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-video {
+  position: relative;
+}
+
+/* line 362, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__video-video .video__play {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+/* line 372, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize {
+  height: 695px;
+  background-color: #2A313C;
+}
+
+/* line 375, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box {
+  display: flex;
+}
+
+/* line 377, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize__bg {
+  margin-right: 128px;
+}
+
+/* line 380, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize {
+  padding-top: 82px;
+}
+
+/* line 382, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize-fire {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* line 387, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize-fire img {
+  padding-right: 8px;
+}
+
+/* line 390, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize-fire .customizetext-fire {
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57B8FF;
+}
+
+/* line 398, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text {
+  width: 596px;
+}
+
+/* line 400, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-title {
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 38px;
+}
+
+/* line 407, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-subtitle {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+  margin-bottom: 54px;
+}
+
+/* line 413, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-slider {
+  height: 125.42px;
+  position: relative;
+}
+
+/* line 416, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-slider .slick-list {
+  overflow: hidden;
+}
+
+/* line 419, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
+/* line 424, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-slider .slick-slide.slick-current img {
+  background: #3B3D46;
+  border-radius: 20px;
+  padding: 11px;
+}
+
+/* line 431, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-slider .slick-arrow {
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  font-size: 0;
+}
+
+/* line 437, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-slider .slick-arrow.slick-prev {
+  left: 0;
+  width: 44px;
+  height: 44px;
+  background: #3F8CFF;
+}
+
+/* line 443, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__customize .customize__box .customize .customize__text .customize-slider .slick-arrow.slick-next {
+  right: 0;
+  width: 44px;
+  height: 44px;
+  background: #3F8CFF;
+}
+
+/* line 454, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play {
+  height: 732px;
+  margin-bottom: 130px;
+}
+
+/* line 457, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 460, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-1 {
+  background: url(../img/game/bg-FPS.png) no-repeat center;
+  background-size: cover;
+  width: 480px;
+  height: 732px;
+}
+
+/* line 465, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-1 .play__text-1 {
+  padding: 50% 0;
+}
+
+/* line 467, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-1 .play__text-1 p {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 475, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-1 .play__text-1 img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* line 480, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-1 .play__text-1:hover {
+  background: url(../img/game/bg-fps-active.jpg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 487, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-2 {
+  background: url(../img/game/bg-multiplayer.png) no-repeat center;
+  background-size: cover;
+  width: 480px;
+  height: 732px;
+}
+
+/* line 492, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-2 .play__text-2 {
+  padding: 50% 0;
+}
+
+/* line 494, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-2 .play__text-2 p {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 501, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-2 .play__text-2 img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* line 506, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-2 .play__text-2:hover {
+  background: url(../img/game/bg-multiplayer-active.jpg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 513, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-3 {
+  background: url(../img/game/bg-open-world.png) no-repeat center;
+  background-size: cover;
+  width: 480px;
+  height: 732px;
+}
+
+/* line 518, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-3 .play__text-3 {
+  padding: 50% 0;
+}
+
+/* line 520, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-3 .play__text-3 p {
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 527, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-3 .play__text-3 img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* line 532, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__play .play__container .play__container-3 .play__text-3:hover {
+  background: url(../img/game/bg-open-world-active.jpg) no-repeat center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 541, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news {
+  padding-bottom: 130px;
+}
+
+/* line 544, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 196px;
+  margin-bottom: 64px;
+}
+
+/* line 550, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title .news__box {
+  width: 652px;
+  height: 196px;
+}
+
+/* line 553, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title .news__box .news__fire {
+  display: flex;
+  margin-bottom: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+/* line 558, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title .news__box .news__fire img {
+  padding-right: 8px;
+}
+
+/* line 561, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title .news__box .news__fire .news-fire {
+  margin: 0;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57B8FF;
+}
+
+/* line 569, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title .news__box .news__tit {
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 576, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title .news__btm {
+  height: 70px;
+  font-size: 17px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 582, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__title .news__btm:hover {
+  background-color: #FDD04A;
+}
+
+/* line 587, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport {
+  display: flex;
+  justify-content: space-between;
+  height: 702px;
+}
+
+/* line 591, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__gamepad {
+  width: 648px;
+}
+
+/* line 593, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__gamepad .news__april {
+  font-size: 18px;
+  line-height: 18px;
+  color: #57B8FF;
+  margin-bottom: 28px;
+}
+
+/* line 599, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__gamepad p {
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 605, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__gamepad img {
+  margin-bottom: 54px;
+}
+
+/* line 609, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__box {
+  width: 648px;
+}
+
+/* line 612, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 615, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__list .news__item {
+  width: 312px;
+  margin-bottom: 40px;
+}
+
+/* line 618, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__list .news__item .news__april {
+  font-size: 16px;
+  line-height: 16px;
+  color: #57B8FF;
+  margin-bottom: 20px;
+}
+
+/* line 624, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__list .news__item img {
+  margin-bottom: 30px;
+}
+
+/* line 627, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__list .news__item p {
+  font-size: 24px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* line 633, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__news .news__esport .news__list .news__item:nth-child(2n) {
+  margin: 0 0 24px 0;
+}
+
+/* line 640, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub {
+  height: 683px;
+  background: url(../img/bg/bg-email.png);
+}
+
+/* line 643, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__box {
+  padding-top: 130px;
+  margin: 0 auto;
+  height: 423px;
+  width: 847px;
+  padding-bottom: 130px;
+}
+
+/* line 650, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__title {
+  position: relative;
+  font-size: 72px;
+  line-height: 82px;
+  text-align: center;
+  color: #141820;
+  margin-bottom: 51px;
+}
+
+/* line 657, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__title .sub__line {
+  position: absolute;
+  left: 44%;
+}
+
+/* line 662, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__text {
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: #555555;
+  margin-bottom: 45px;
+}
+
+/* line 669, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__email {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 672, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__email .email {
+  width: 445px;
+  height: 80px;
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 0px;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #555555;
+  padding-left: 13px;
+}
+
+/* line 684, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__email .sub__btm {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 690, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.main__sub .sub__email .sub__btm:hover {
+  background-color: #141820;
+}
+
+/* line 701, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer {
+  padding-top: 130px;
+  width: 100%;
+  height: 507px;
+  color: #FFFFFF;
+  background-color: #222730;
+}
+
+/* line 707, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+/* line 715, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__logo {
+  width: 300px;
+  height: 202px;
+}
+
+/* line 718, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__logo img {
+  margin-bottom: 35px;
+}
+
+/* line 722, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__logo-text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #999999;
+}
+
+/* line 727, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__list-title {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+/* line 734, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__link {
+  font-size: 15px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #999999;
+}
+
+/* line 739, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__link:hover {
+  color: #FAC422;
+}
+
+/* line 743, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__social {
+  height: 202px;
+}
+
+/* line 746, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__social-title {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+/* line 753, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__social-list {
+  display: flex;
+}
+
+/* line 756, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__social-item {
+  width: 48px;
+  height: 48px;
+  background-color: #383D45;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+/* line 762, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__social-item:last-child {
+  margin-right: 0;
+}
+
+/* line 765, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__social-item:hover {
+  background-color: #FAC422;
+}
+
+/* line 769, ../HTML_CSS_IT/Infinizai/scss/style.scss */
+.footer__copyright {
+  display: flex;
+  width: 1320px;
+  height: 67px;
+  border-top: 1px solid #3E3E3E;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: end;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #898989;
+}
+
+/*# sourceMappingURL=style.css.map */

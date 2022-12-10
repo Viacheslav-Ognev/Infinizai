@@ -1,0 +1,779 @@
+@import 'reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+*{
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Orbitron', sans-serif;
+}
+a{
+   color: #FFFFFF;
+}
+.container {
+   width: 1320px;
+   margin: 0 auto;
+}
+
+
+.btm {
+   background: #57B8FF;
+   border-radius: 0px;
+   padding: 21px 34px;
+}
+
+.header {
+   position: absolute;
+   left: 0;
+   right: 0;
+   z-index: 50;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+   &__list {
+      display: flex;
+   }
+   &__item {
+      margin-right: 60px;
+   &:last-child {
+      margin-right: 0;
+   }
+   }
+   &__link {
+      font-size: 16px;
+      line-height: 26px;
+      /* identical to box height, or 162% */
+      color: #FFFFFF;
+      &:hover {
+         color: #FAC422;
+      }
+   }
+   &__contanct {
+      display: flex;
+      align-items: center;
+   }
+   &__basket {
+      position: relative;
+      margin-right: 40px;
+      // &:hover {
+      //    color: #FAC422;
+      // }
+   }
+   &__basket-img {
+      width: 32px;
+      height: 32px;
+   }
+   &__buy {
+      position: absolute;
+      background-color: #FFFFFF;
+      color: #000;
+      border-radius: 9px;
+      margin-right: 20px;
+      padding: 5px 6px;
+      left: 96.92%;
+      top: 0;
+   }
+   &__btm {
+      display: block;
+      font-size: 18px;
+      line-height: 30px;
+      /* identical to box height, or 167% */
+      color: #FFFFFF;
+      border: 1px solid #FFFFFF;
+      border-radius: 0px;
+      padding: 16px 31px;
+      &:hover {
+         background-color: #FAC422;
+      }
+   }
+}
+
+.main {
+   padding-top: 300px;
+   background-color: #000;
+   z-index: 1;
+   &__hero{
+      height: 769px;
+   }
+   &__social {
+      position: absolute;
+      left: calc(50% - 81px/2 - 805.5px);
+      top: calc(50% - 25px/2 + 118px);
+   }
+   &__list {
+      display: flex;
+      transform: rotate(-90deg);
+   }
+   &__item {
+      margin-right: 36px;
+   }
+   &__link {
+      font-size: 11px;
+      line-height: 25px;
+      /* identical to box height, or 227% */
+      color: #80858F;
+   }
+   &__info {
+      display: flex;
+   }
+   &__text {
+      position: relative;
+      color: #FFFFFF;
+   }
+   &__fire {
+      display: flex;
+      margin-bottom: 16px;
+      align-items: center;
+      img {
+         padding-right: 8px;
+      }
+   }
+   &__fire-text {
+      font-size: 16px;
+      line-height: 16px;
+      /* identical to box height, or 100% */
+      text-transform: uppercase;
+      color: #57B8FF;
+   }
+   &__title {
+      font-size: 72px;
+      line-height: 86px;
+      text-transform: capitalize;
+      margin-bottom: 43px;
+   }
+   &__line {
+      position: absolute;
+      top: 40%;
+      left: 30%;
+   }
+   &__sub-title {
+      font-size: 18px;
+      line-height: 28px;
+      color: #999999;
+      margin-bottom: 53px;
+   }
+   &__btm-link {
+      font-size: 18px;
+      line-height: 28px;
+      color: #FFFFFF;
+      &:hover {
+         color: #FAC422;
+      }
+   }
+   &__btm{
+      margin-right: 40px;
+      color: #FFFFFF;
+      &:hover {
+         background: #FAC422;
+      }
+   }
+   &__bg-img{
+      z-index: 30;
+   }
+   &__blue-color{
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 670px;
+      height: 1069px;
+      background-color: #57B8FF;
+      z-index: 2;
+   }
+   &__webflow-btm {
+      position: absolute;
+      align-items: center;
+      left: 90%;
+      background: #FFFFFF;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+      z-index: 30;
+      .webflow_logo{
+         margin: 6px 8px 6px 6px;
+      }
+      .webflow-text {
+         margin: 9px 8px 9px 0;
+      }
+   }
+   &__company{
+      height: 542px;
+      background: #FDD04A;
+   }
+   &__company-box {
+      position: relative;
+      padding: 130px 60px;
+      text-align: center;
+   }
+   &__company-title {
+      font-size: 48px;
+      line-height: 58px;
+      text-transform: capitalize;
+      color: #222730;
+      margin-bottom: 27px;
+   }
+   &__comany-line {
+      position: absolute;
+      left: 42%;
+      top: 36%;
+   }
+   &__subtitle-company {
+      font-size: 16px;
+      line-height: 26px;
+      width: 576px;
+      color: #555555;
+      margin: 0 auto;
+      margin-bottom: 41px;
+   }
+   &__campany-list {
+      display: flex;
+      justify-content: space-between;
+   }
+   &__game {
+      background: url(../img/bg/bg.jpg) no-repeat center center;
+      background-size: cover;
+      height: 1072px;
+      padding-top: 130px;
+      margin-bottom: 130px;
+   }
+   &__game-text {
+      margin: 0 auto;
+      width: 770px;
+      height: 292px;
+      margin-bottom: 62px;
+   }
+   &__fire {
+      display: flex;
+      margin-bottom: 12px;
+      align-items: center;
+      justify-content: center;
+      img {
+         padding-right: 8px;
+      }
+   }
+   &__text-fire {
+      font-size: 16px;
+      line-height: 16px;
+      /* identical to box height, or 100% */
+      text-transform: uppercase;
+      color: #57B8FF;
+   }
+   &__game-title {
+      font-size: 64px;
+      line-height: 74px;
+      text-align: center;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-bottom: 39px;
+   }
+   &__game-subtitle {
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: rgba(223, 223, 223, 0.8);
+   }
+   &__game-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+   &__game-item {
+      display: flex;
+      align-items: center;
+      width: 586px;
+      height: 212px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      margin: 0 32px 32px 0;
+      &:nth-child(2n){
+         margin: 0 0 32px 0;
+      }
+      img{
+         width: 29px;
+         height: 29px;
+         margin: 35px 16px 148px 35px;
+      }
+      div{
+         margin: 35px 35px 35px 0;
+         h4{
+            font-size: 32px;
+            line-height: 42px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            padding-bottom: 19px;
+         }
+         p{
+            font-size: 18px;
+            line-height: 28px;
+            color: rgba(223, 223, 223, 0.8);
+         }
+      }
+   }
+   &__video {
+      height: 677px;
+   }
+   &__video-container{
+      display: flex;
+   }
+   &__video-text {
+      width: 733px;
+      margin-right: 95px;
+   }
+   &__video-fire {
+      display: flex;
+      margin-bottom: 12px;
+      align-items: center;
+         img {
+            padding-right: 8px;
+         }
+   }
+   &__videotext-fire {
+      margin: 0;
+      font-size: 16px;
+      line-height: 16px;
+      text-transform: uppercase;
+      color: #57B8FF;
+      margin-bottom: 12px;
+   }
+   &__video-title {
+      font-size: 64px;
+      line-height: 74px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-bottom: 38px;
+   }
+   &__video-subtitle{
+      font-size: 20px;
+      line-height: 30px;
+      color: rgba(223, 223, 223, 0.8);
+      margin-bottom: 54px;
+   }
+   &__video-btm{
+      font-size: 18px;
+      line-height: 28px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      
+      &:hover{
+         background-color: #FDD04A;
+      }
+   }
+   &__video-video{
+      position: relative;
+      .video__play{
+         position: absolute;
+         top: 40%;
+         left: 40%;
+      }
+
+
+      
+      
+   }
+   &__customize {
+      height: 695px;
+      background-color: #2A313C;
+      .customize__box{
+         display: flex;
+         .customize__bg{
+            margin-right: 128px;
+         }
+         .customize{
+            padding-top: 82px;
+            .customize-fire{
+            display: flex;
+            margin-bottom: 12px;
+            align-items: center;
+            margin-bottom: 12px;
+               img {
+                  padding-right: 8px;
+               }
+               .customizetext-fire {
+                  margin: 0;
+                  font-size: 16px;
+                  line-height: 16px;
+                  text-transform: uppercase;
+                  color: #57B8FF;
+               }
+            }
+            .customize__text{
+               width: 596px;
+               .customize-title {
+                  font-size: 64px;
+                  line-height: 74px;
+                  text-transform: capitalize;
+                  color: #FFFFFF;
+                  margin-bottom: 38px;
+               }
+               .customize-subtitle {
+                  font-size: 20px;
+                  line-height: 30px;
+                  color: rgba(223, 223, 223, 0.8);
+                  margin-bottom: 54px;
+               }
+               .customize-slider {
+                  height: 125.42px;
+                  position: relative;
+                  .slick-list {
+                     overflow: hidden;
+                  }
+                  .slick-track{
+                     display: flex;
+                     align-items: center;
+                  }
+                  .slick-slide.slick-current{
+                     img{
+                        background: #3B3D46;
+                     border-radius: 20px;
+                     padding: 11px;
+                     }
+                     
+                  }
+                  .slick-arrow{
+                     position: absolute;
+                     top: 30%;
+                     z-index: 10;
+                     font-size: 0;
+                  }
+                  .slick-arrow.slick-prev{
+                     left: 0;
+                     width: 44px;
+                     height: 44px;
+                     background: #3F8CFF;
+                  }
+                  .slick-arrow.slick-next{
+                     right: 0;
+                     width: 44px;
+                     height: 44px;
+                     background: #3F8CFF;
+                  }
+               }
+            }
+         }
+      }
+   }
+   &__play {
+      height: 732px;
+      margin-bottom: 130px;
+      .play__container{
+         display: flex;
+         justify-content: space-evenly;
+         .play__container-1 {
+            background: url(../img/game/bg-FPS.png) no-repeat center;
+            background-size: cover;
+            width: 480px;
+            height: 732px;
+            .play__text-1{
+               padding: 50% 0;
+               p{
+               
+                  font-size: 48px;
+                  line-height: 58px;
+                  text-align: center;
+                  text-transform: capitalize;
+                  color: #FFFFFF;
+               }
+               img{
+                  display: flex;
+                  justify-content: center;
+                  margin: 0 auto;
+               }
+               &:hover {
+                  background: url(../img/game/bg-fps-active.jpg) no-repeat center;
+                  width: 100%;
+                  height: 100%;
+               }
+            }
+         }
+         .play__container-2 {
+            background: url(../img/game/bg-multiplayer.png) no-repeat center;
+            background-size: cover;
+            width: 480px;
+            height: 732px;
+            .play__text-2{
+               padding: 50% 0;
+               p{
+                  font-size: 48px;
+                  line-height: 58px;
+                  text-align: center;
+                  text-transform: capitalize;
+                  color: #FFFFFF;
+               }
+               img{
+                  display: flex;
+                  justify-content: center;
+                  margin: 0 auto;
+               }
+               &:hover {
+                  background: url(../img/game/bg-multiplayer-active.jpg) no-repeat center;
+                  width: 100%;
+                  height: 100%;
+               }
+            }
+         }
+         .play__container-3 {
+            background: url(../img/game/bg-open-world.png) no-repeat center;
+            background-size: cover;
+            width: 480px;
+            height: 732px;
+            .play__text-3 {
+               padding: 50% 0;
+               p{
+                  font-size: 48px;
+                  line-height: 58px;
+                  text-align: center;
+                  text-transform: capitalize;
+                  color: #FFFFFF;
+               }
+               img{
+                  display: flex;
+                  justify-content: center;
+                  margin: 0 auto;
+               }
+               &:hover {
+                  background: url(../img/game/bg-open-world-active.jpg) no-repeat center;
+                  width: 100%;
+                  height: 100%;
+               }
+            }
+         }
+      }
+   }
+   &__news {
+      // height: 962px;
+      padding-bottom: 130px;
+      .news__title {
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
+         height: 196px;
+         margin-bottom: 64px;
+         .news__box{
+            width: 652px;
+            height: 196px;
+            .news__fire {
+               display: flex;
+                  margin-bottom: 12px;
+                  align-items: center;
+                  margin-bottom: 12px;
+                     img {
+                        padding-right: 8px;
+                     }
+                     .news-fire {
+                        margin: 0;
+                        font-size: 16px;
+                        line-height: 16px;
+                        text-transform: uppercase;
+                        color: #57B8FF;
+                     }
+            }
+            .news__tit {
+               font-size: 64px;
+               line-height: 74px;
+               text-transform: capitalize;
+               color: #FFFFFF;
+            }
+         }
+         .news__btm {
+            height: 70px;
+            font-size: 17px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            &:hover{
+               background-color: #FDD04A;
+            }
+         }
+      }
+      .news__esport{
+         display: flex;
+         justify-content: space-between;
+         height: 702px;
+         .news__gamepad {
+            width: 648px;
+            .news__april{
+               font-size: 18px;
+               line-height: 18px;
+               color: #57B8FF;
+               margin-bottom: 28px;
+            }
+            p{
+               font-size: 36px;
+               line-height: 46px;
+               text-transform: capitalize;
+               color: #FFFFFF;
+            }
+            img {
+               margin-bottom: 54px;
+            }
+         }
+         .news__box {
+            width: 648px;
+         }
+         .news__list {
+            display: flex;
+            flex-wrap: wrap;
+            .news__item {
+               width: 312px;
+               margin-bottom: 40px;
+               .news__april{
+                  font-size: 16px;
+                  line-height: 16px;
+                  color: #57B8FF;
+                  margin-bottom: 20px;
+               }
+               img {
+                  margin-bottom: 30px;
+               }
+               p{
+                  font-size: 24px;
+                  line-height: 34px;
+                  text-transform: capitalize;
+                  color: #FFFFFF;
+               }
+               &:nth-child(2n){
+                  margin: 0 0 24px 0;
+               }
+            }
+         }
+      }
+   }
+   &__sub{
+      height: 683px;
+      background: url(../img/bg/bg-email.png);
+      .sub__box {
+         padding-top: 130px;
+         margin: 0 auto;
+         height: 423px;
+         width: 847px;
+         padding-bottom: 130px;
+      }
+      .sub__title {
+         position: relative;
+         font-size: 72px;
+         line-height: 82px;
+         text-align: center;
+         color: #141820;
+         margin-bottom: 51px;
+         .sub__line {
+            position: absolute;
+            left: 44%;
+         }
+      }
+      .sub__text {
+         font-size: 17px;
+         line-height: 28px;
+         text-align: center;
+         color: #555555;
+         margin-bottom: 45px;
+      }
+      .sub__email {
+         display: flex;
+         justify-content: center;
+         .email{
+            width: 445px;
+            height: 80px;
+            background: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            border-radius: 0px;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 700;
+            color: #555555;
+            padding-left: 13px;
+         }
+         .sub__btm {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            &:hover {
+               background-color: #141820;
+            }
+         }
+      }
+
+   }
+}
+.footer {
+   padding-top: 130px;
+   width: 100%;
+   height: 507px;
+   color: #FFFFFF;
+   background-color: #222730;
+   &__info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 1320px;
+      margin: 0 auto;
+      margin-bottom: 48px;
+   }
+   &__logo {
+      width: 300px;
+      height: 202px;
+      img {
+         margin-bottom: 35px;
+      }
+   }
+   &__logo-text {
+      font-size: 15px;
+      line-height: 25px;
+      color: #999999;
+   }
+   &__list-title {
+      font-size: 18px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+   }
+   &__link {
+      font-size: 15px;
+      line-height: 38px;
+      text-transform: capitalize;
+      color: #999999;
+      &:hover {
+         color: #FAC422;
+      }
+   }
+   &__social {
+      height: 202px;
+   }
+   &__social-title {
+      font-size: 18px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+   }
+   &__social-list {
+      display: flex;
+   }
+   &__social-item {
+      width: 48px;
+      height: 48px;
+      background-color: #383D45;
+      margin-right: 16px;
+      cursor: pointer;
+      &:last-child {
+         margin-right: 0;
+      }
+      &:hover {
+         background-color: #FAC422;
+      }
+   }
+   &__copyright {
+      display: flex;
+      width: 1320px;
+      height: 67px;
+      border-top: 1px solid #3E3E3E;;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: end;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      color: #898989;
+   }
+}
